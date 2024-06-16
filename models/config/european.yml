@@ -1,0 +1,7 @@
+predict_config:
+  data_dir: '.'
+  save_dir: 'result'
+  filepaths: 'result/video_filepaths.csv'
+  checkpoint: 'models/european.ckpt'
+  overwrite: true
+  skip_load_validation: false
