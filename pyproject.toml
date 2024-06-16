@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ysn_zamba"
+version = "0.1.0"
+description = ""
+authors = ["Stanley"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+zamba = {path = "zamba/zamba.tar.gz"}
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
